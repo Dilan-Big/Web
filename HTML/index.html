@@ -1,56 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
- <header class="encabezado">
-    <h1>Desarrolo Web</h1>
-    <nav>
-        <a href="/HTML/index.html" class="menu">Menu</a>
-        <a href="/HTML/galeria.html" class="galeria">Galeria</a>
-        <a href="/HTML/formulario,.html" class="formulario">Formulario</a>
-    </nav>
- </header>
- <main class="contenido">
-    <section>
-        <article>
-            <h2>Propiedades</h2>
-            <p>Las propiedades CSS son instrucciones que definen el estilo, layout y comportamiento de elementos HTML, agrupadas en categorías como Box Model, tipografía o Flexbox. Se aplican vía selectores y son esenciales para responsive design en tu bootcamp y ecommerce.</p>
-        </article>
-
-        <article>
-
-        </article>
-            <h2>Box model</h2>
-            <p>El Box Model en CSS define la estructura rectangular de cada elemento HTML como una caja con cuatro capas: contenido, relleno (padding), borde (border) y margen (margin). Es la base del layout y explica por qué el tamaño total no siempre coincide con width + height.</p>
+    <link rel="stylesheet" href="/CSS/style.css">
+  </head>
+  <body>
+    <header class="encabezado">
+        <div class="logo">
+            <img src="/IMAGENES/imagen.jpg" alt="" class="logo-img">
+        </div>
+        <h1 class="titulo">Desarrolo Web</h1>
+      <nav class="menu-nav">
+        <a href="/HTML/index.html" class="menu-link">Menu</a>
+        <a href="/HTML/galeria.html" class="menu-link">Galeria</a>
+        <a href="/HTML/formulario,.html" class="menu-link">Formulario</a>
+      </nav>
+    </header>
+    <main class="contenido">
+      <section class="Tarjetas">
         <article class="tarjeta">
-            <h2>Selectores</h2>
-            <p>Un selector en HTML se refiere principalmente a los selectores CSS, que se usan para apuntar a elementos específicos del código HTML y aplicarles estilos. No forman parte del HTML puro, sino que se escriben en hojas de estilo CSS para identificar etiquetas, clases, IDs u otros atributos.</p>            
+          <h2>Propiedades</h2>
+          <p>
+            Las propiedades CSS son instrucciones que definen el estilo, layout
+            y comportamiento de elementos HTML, agrupadas en categorías como Box
+            Model, tipografía o Flexbox. Se aplican vía selectores y son
+            esenciales para responsive design en tu bootcamp y ecommerce.
+          </p>
         </article>
 
-        <article>
-            <h2>Display</h2>
-            <p>La propiedad display en CSS controla cómo se muestra un elemento HTML en la página, definiendo su comportamiento de layout como bloque, en línea o contenedor flexible. Se usa con selectores para cambiar el flujo visual, esencial en diseños responsive para tu tienda de ecommerce</p>
+        <article class="tarjeta">
+          <h2 class="sub-titulos">Box model</h2>
+          <p>
+            El Box Model en CSS define la estructura rectangular de cada
+            elemento HTML como una caja con cuatro capas: contenido, relleno
+            (padding), borde (border) y margen (margin). Es la base del layout y
+            explica por qué el tamaño total no siempre coincide con width +
+            height.
+          </p>
         </article>
 
-        <article>
-            <h2>FloxBox</h2>
-            <p>Flexbox es un módulo de CSS que crea layouts unidimensionales flexibles, distribuyendo y alineando elementos hijos en un contenedor padre de forma responsive y eficiente. Se activa con display: flex y es ideal para menús, galerías o cards de productos en tu ecommerce de dropshipping.</p>
-        </article>
-        <article>
-            <h2>Medidas</h2>
-            <p>Las unidades de medida (o medidas) en CSS definen tamaños como ancho, alto, márgenes o fuentes, dividiéndose en absolutas (fijas) y relativas (adaptables). Son clave para diseños responsive en tu ecommerce, combinándolas con Flexbox y display.</p>
+        <article class="tarjeta">
+          <h2 class="sub-titulos">Selectores</h2>
+          <p>
+            Un selector en HTML se refiere principalmente a los selectores CSS,
+            que se usan para apuntar a elementos específicos del código HTML y
+            aplicarles estilos. No forman parte del HTML puro, sino que se
+            escriben en hojas de estilo CSS para identificar etiquetas, clases,
+            IDs u otros atributos.
+          </p>
         </article>
 
-    </section>
- </main>
- <footer>
+        <article class="tarjeta">
+          <h2 class="sub-titulos">Display</h2>
+          <p>
+            La propiedad display en CSS controla cómo se muestra un elemento
+            HTML en la página, definiendo su comportamiento de layout como
+            bloque, en línea o contenedor flexible. Se usa con selectores para
+            cambiar el flujo visual, esencial en diseños responsive para tu
+            tienda de ecommerce
+          </p>
+        </article>
 
- </footer>
-</body>
+        <article class="tarjeta">
+          <h2 class="sub-titulos">FloxBox</h2>
+          <p>
+            Flexbox es un módulo de CSS que crea layouts unidimensionales
+            flexibles, distribuyendo y alineando elementos hijos en un
+            contenedor padre de forma responsive y eficiente. Se activa con
+            display: flex y es ideal para menús, galerías o cards de productos
+            en tu ecommerce de dropshipping.
+          </p>
+        </article>
+        <article class="tarjeta">
+          <h2 class="sub-titulos">Medidas</h2>
+          <p>
+            Las unidades de medida (o medidas) en CSS definen tamaños como
+            ancho, alto, márgenes o fuentes, dividiéndose en absolutas (fijas) y
+            relativas (adaptables). Son clave para diseños responsive en tu
+            ecommerce, combinándolas con Flexbox y display.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
