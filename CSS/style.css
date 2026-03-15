@@ -13,10 +13,10 @@
 }
 .logo-img {
 
-  width: 100px;        
-  height: 100px;       
+  width: 100px;
+  height: 100px;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3); 
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3);
 }
 
 .titulo {
@@ -52,4 +52,45 @@
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
+.contenido {
+    max-width: 1100px;
+    margin: 40px auto 60px;
+    padding: 0 20px;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px 18px;
+    border: 3px solid #e5e7eb;
+    box-shadow: 0 12px 30px #0f172a14;
+    flex: 1 1 260px;
+    max-width: 320px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+}
+
+.tarjeta:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px #0f172a2e;
+}
+
+.tarjeta h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color:  #4f46e5;;
+}
+
+.tarjeta p {
+    font-size: 1rem;
+    color: #4b5563;
+    line-height: 1.6;
+}
 
