@@ -182,7 +182,6 @@
   z-index: 10;
 }
 
-/* SECCIÓN DEL FORMULARIO */
 .seccion-formulario {
   max-width: 600px;
   margin: 40px auto 60px;
@@ -192,11 +191,10 @@
 
 .titulo-formulario {
   font-size: 1.7rem;
-  color: #4f46e5;                 /* mismo violeta del header */
+  color: #4f46e5;
   margin-bottom: 20px;
 }
 
-/* CARD DEL FORMULARIO */
 .formulario-opinion {
   background: #ffffff;
   border-radius: 16px;
@@ -205,10 +203,9 @@
   border: 1px solid #e5e7eb;
   display: flex;
   flex-direction: column;
-  gap: 16px;                      /* espacio entre campos */
+  gap: 16px;
 }
 
-/* CADA GRUPO (label + input) */
 .grupo-campo {
   text-align: left;
   display: flex;
@@ -221,7 +218,6 @@
   color: #4b5563;
 }
 
-/* INPUTS Y TEXTAREA */
 .formulario-opinion input,
 .formulario-opinion textarea {
   font-family: inherit;
@@ -233,16 +229,15 @@
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* EFECTO AL HACER FOCUS (cuando escribes) */
 .formulario-opinion input:focus,
 .formulario-opinion textarea:focus {
   border-color: #4f46e5;
   box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.20);
 }
 
-/* BOTÓN ENVIAR */
+
 .btn-enviar {
-  align-self: flex-end;            /* botón alineado a la derecha */
+  align-self: flex-end;      
   margin-top: 8px;
   padding: 10px 20px;
   border-radius: 999px;
@@ -256,7 +251,6 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
 }
 
-/* HOVER BOTÓN */
 .btn-enviar:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(79, 70, 229, 0.45);
