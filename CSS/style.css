@@ -138,6 +138,132 @@
     line-height: 1.6;
 }
 
+.polaroid-1 {
+    top: 0;
+    left: 40px;
+    transform: rotate(-6deg);
+}
+
+.polaroid-2 {
+    top: -10px;
+    left: 230px;
+    transform: rotate(2deg);
+}
+
+.polaroid-3 {
+    top: 0;
+    right: 40px;
+    transform: rotate(7deg);
+}
+
+.polaroid-4 {
+    bottom: 10px;
+    left: 10px;
+    transform: rotate(-10deg);
+}
+
+.polaroid-5 {
+    bottom: -5px;
+    left: 230px;
+    transform: rotate(0deg);
+}
+
+.polaroid-6 {
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(8deg);
+}
+
+.polaroid:hover {
+  transform: translateY(-10px) scale(1.03) rotate(0deg);
+  box-shadow:
+    0 25px 60px rgba(0, 0, 0, 0.25),
+    0 8px 18px rgba(0, 0, 0, 0.18);
+  z-index: 10;
+}
+
+/* SECCIÓN DEL FORMULARIO */
+.seccion-formulario {
+  max-width: 600px;
+  margin: 40px auto 60px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.titulo-formulario {
+  font-size: 1.7rem;
+  color: #4f46e5;                 /* mismo violeta del header */
+  margin-bottom: 20px;
+}
+
+/* CARD DEL FORMULARIO */
+.formulario-opinion {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px 20px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;                      /* espacio entre campos */
+}
+
+/* CADA GRUPO (label + input) */
+.grupo-campo {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.grupo-campo label {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+/* INPUTS Y TEXTAREA */
+.formulario-opinion input,
+.formulario-opinion textarea {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* EFECTO AL HACER FOCUS (cuando escribes) */
+.formulario-opinion input:focus,
+.formulario-opinion textarea:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.20);
+}
+
+/* BOTÓN ENVIAR */
+.btn-enviar {
+  align-self: flex-end;            /* botón alineado a la derecha */
+  margin-top: 8px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: none;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+/* HOVER BOTÓN */
+.btn-enviar:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(79, 70, 229, 0.45);
+  opacity: 0.95;
+}
+
+
 
 
 
